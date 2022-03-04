@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "ContactRequestContext": "Server=az1-wsq1.a2hosting.com;Database=varnerw1_ContactRequest;User ID=TinyHomes;password=Tiny2468#;Trusted_Connection=False"
+  },
+  "FeatureToggles": {
+    "EnableDeveloperExceptions": true
+  }
+}

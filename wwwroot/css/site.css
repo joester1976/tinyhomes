@@ -1,0 +1,146 @@
+body {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Verdana", sans-serif;
+    background-color: #e7f6ff;
+}
+
+nav.navigation-bar {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding: 15px 200px;
+}
+
+header img {
+    margin-left: 2rem;
+    width: 9rem;
+    height: 5rem;
+}
+
+main {
+    min-height: 550px;
+    width: 950px;
+    padding: 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#products div {
+    width: 298px;
+    margin: 10px 2px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 24px;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.item img {
+    height: 200px;
+    width: 200px;
+}
+
+.item p {
+    width: 250px;
+    margin: 20px auto;
+}
+
+td img {
+    width: 100px;
+    border-radius: 10rem;
+    border: 2px solid black;
+}
+
+.navigation-bar {
+    background-color: darkblue;
+    padding: 0px 200px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navigation-item {
+    color: white;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    line-height: 40px;
+}
+
+.navigation-item:hover {
+    color: lightblue;
+}
+
+input {
+    width: 200px;
+}
+
+.formfield * {
+    vertical-align: middle;
+}
+
+.formfield textarea {
+    height: 75px;
+    width: 300px;
+}
+
+.contactus-request-block {
+    border: 2px solid black;
+    margin: 10px 10px;
+}
+
+.contactus-request-info {
+    margin: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.contactus-request-message {
+    margin: 10px 10px;
+}
+
+.contact-name {
+    font-weight: 600;    
+}
+
+footer {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer p:first-child {
+    font-weight: bold;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+}
